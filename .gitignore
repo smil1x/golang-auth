@@ -1,0 +1,19 @@
+/bin/
+/build/
+
+/*.exe
+/*.log
+/*.out
+
+# Папка для модулей Go
+/vendor/
+
+# Файлы кэша Go
+*.cache
+
+# Файлы настройки IDE
+.idea/
+.vscode/
+
+.database/*
+

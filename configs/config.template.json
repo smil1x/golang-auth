@@ -1,0 +1,20 @@
+{
+  "addr": ":8080",
+  "db": {
+    "host": "db",
+    "port": "5432",
+    "username": "postgres",
+    "password" : "root",
+    "dbName": "go-auth",
+    "sslMode": "disable"
+  },
+  "jwt": {
+    "private_rsa_key": "-----BEGIN RSA PRIVATE KEY-----\nMIIEogIBAAKCAQBj8eeAltJTH9HqOhkQxmeQC692khH9Y2tgS5nENKA51iU4ak9V\niQuQHCkNVvxx3sXEB90umpTgEdXwNjMx3SwBhJRqBWiTsR1DQOap2P6DWimW7/Cb\nD5GuZZvfiRaKgiiEtOJF/igz68Tk79hTjKEmGjvaI8Ag5pHiFsHj9sskdJu+a5wj\nXjQVVZ7kg3o/q/B15KenQR9n6OSJ9C5oSxAD2OsElGdMz/U/waIb4QoFnJXsik5a\nQ5edaZhbrhYktDnuhJe+WGww0YPM+luL9jSXVk7hqcFgpSreVrmqJvGd4KOq8wBL\n01vNcVucvW0XUFe43Ya2Gi6AxvaYJ+MToEyzAgMBAAECggEARKD1gJ0QK7gr4pSm\nZZh3wLflcpv28nH0Z5lCKzKf21crE8QcWfXTFM/heKGEk4SPdH6Z6MiI9hwJNfth\nyBnBgAFUEEFKgDAckfPc8EBq9DNTX6u/IhrcxE5NbH+sFMwvmoDC56EQZia9ex8f\nArAMcCePdckawvzQq9lIporvD0aOFAZFtIybnFJ2hlSQuhkTANIsRxwt+jD4chSS\naZbvBq3cvtsY1AAo9Hrmnck7eNedWjtms07bfwpcnHIgzUcCMHc619eY8/gjwVBS\nFyk6Vhf48EjZBzvdYn8FQOoGPbPa+b+sRkQDeuYHU6q74JG7WNd0AhlkaGlWkj6A\n0xM6IQKBgQCzZnfSp3V6kF4N161OHufDrfqfAPG7Pi56yJTHhTubkIEK6zgv1K7Q\nsUAvZKV5sXP4C9X0SrqAQALuXdaiwCFJlkBTGHQtKBNly6zeln4FQ0A3mXizJkyq\nd9fmJuv07WMVntxou7hr3jYT9q7VzveQ3ScDwaHsG+Mrb9rd4ZXAWwKBgQCOnn1I\nbUyDilNJDN1SmibMWQZM0KGHa0dUEHYwEgG4EWFA53jGgmuXGXIa9X1uWCss7NEn\nXAnvLk+x/x9+9J9pT5m6DixT/llWwg5WFe7F5i4aPRav3UZIdM5DhbEn/iyFpy31\n+MwYHSRDKvF00ybXqMLON9lw7aJ7gezGHGPUiQKBgQCSJjILbNzp4l6dDE1lTQwm\nf7+idVR44+ldobaC7GlpDEn0KTf2z18zKJNPiMC96PC+7HV6tL5G6N76bXwDzl3P\n4xW4HD3Y48MZtNm55AP6KZVRNjf8SoE+hq9eEes794A3BtosgHF3fumzTc2U5S0N\n2PyFtONCxF1G77Lv+2zR7QKBgA5VCw4OPdQyQHBk5JD6gM+kWqe5h6IOO9rM1LO7\n+4Q96uIU4ORCEwHaQsdGyFYgciZPni0waKcqpkOi+c1OU/7HSxGRfw7pzpyTX9Fy\n3s3wdc2ZOgBuYjPB2UCb3NPCDUNZK5s+Z3Q86Xn+hMlStuKRSRJkNmvM1blHsz2t\neLLRAoGADq3x3D67V7F27fSipbAVbshfiz16liabSCj+cKdRjBl7AvMQL52hl/eO\n4SNB+hhzQYpUGA7UvRH7XDjfr93P425L7RhPjTxz9L2wdfS7L4BOQleskauv9pn6\n7P5T1V+/+vCM2RmhdAziUf2Fl4N9G7TQ+Wd3jkCueACQNikE1nM=\n-----END RSA PRIVATE KEY-----",
+    "public_rsa_key": "-----BEGIN PUBLIC KEY-----\nMIIBITANBgkqhkiG9w0BAQEFAAOCAQ4AMIIBCQKCAQBj8eeAltJTH9HqOhkQxmeQ\nC692khH9Y2tgS5nENKA51iU4ak9ViQuQHCkNVvxx3sXEB90umpTgEdXwNjMx3SwB\nhJRqBWiTsR1DQOap2P6DWimW7/CbD5GuZZvfiRaKgiiEtOJF/igz68Tk79hTjKEm\nGjvaI8Ag5pHiFsHj9sskdJu+a5wjXjQVVZ7kg3o/q/B15KenQR9n6OSJ9C5oSxAD\n2OsElGdMz/U/waIb4QoFnJXsik5aQ5edaZhbrhYktDnuhJe+WGww0YPM+luL9jSX\nVk7hqcFgpSreVrmqJvGd4KOq8wBL01vNcVucvW0XUFe43Ya2Gi6AxvaYJ+MToEyz\nAgMBAAE=\n-----END PUBLIC KEY-----",
+    "refresh_token_secret": "HxGTR7SHq64XnsaJj7wbKkqCi",
+    "access_token_ttl": 300000000000,
+    "refresh_token_ttl": 3600000000000
+  }
+
+
+}
